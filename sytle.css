@@ -1,0 +1,121 @@
+.anything h1{
+    color: #ffffff;
+    
+}
+.anything p{
+   background-color: rgb(129, 129, 129);
+   color: white;
+}
+
+.heading{
+  display: flex;
+   
+   background-color: black;
+  
+
+ justify-content: space-between;
+}
+.heading p{
+    text-align: center;
+    color: white;
+    font-weight: 900;
+}
+.heading a{
+    margin-top: 15px;
+    color: white;
+    font-weight: 900;
+}
+.header{
+    background-image: url(backgroundImg.jpg);
+    padding: 150px;
+}
+.header p {
+    font-size: 24px;
+    text-align: center;
+color: white;
+}
+.header h1{
+    font-size: 40px;
+  text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    color: white;
+}
+
+li{
+    color: #000000;
+    text-align: center;
+    font-size: 15px;
+    color: #8a008a;
+
+
+}
+
+
+h2{
+    font-size: 40px;
+    color: #2e8b57;
+    background-color:#000000;
+}
+h3{
+    font-size: 30;
+    color: #8A008A;
+    text-align: center;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+ 
+}
+.item{
+    position: relative;
+    
+}
+
+a:link{
+    color: #ffffff;
+}
+a:visited{
+    color: #ffffff;
+}
+
+
+
+
+a{
+    text-decoration: none;
+}
+
+body {
+    margin: 0px;
+}
+
+.item img{
+    border: solid #000000;
+    border-radius: 100px;
+    transform: scale(0.7);
+  
+}
+.item{
+    
+  margin: -100px;
+  padding-bottom: 0px;
+  background-color: #ffffff;
+  transform: scale(0.6);
+}
+
+.item li{
+ 
+color: black;
+transform: translate(0,-600%);
+}
+
+.item h3{
+    color: black;
+    transform: translate(0,-400%);
+
+}
+
+body{
+    background-color: #e2e2e2;
+}
